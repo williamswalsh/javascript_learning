@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Window Object Test</title>
+  </head>
+  <body>
+    <p id="demo"></p>
+    
+    <!-- NB: demo must be before the script, so that it can reference the html element. -->
+    <script>
+      var carName = 'Audi Q5';
+      document.getElementById("demo").innerHTML = "I can display " + window.carName;
+    </script>
+    
+  </body>
+</html>
